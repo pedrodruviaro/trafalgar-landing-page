@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const Container = styled.h2`
     font-size: 36px;
-    line-height: 56px;
+    line-height: 1.5;
     font-weight: 700;
 
     width: fit-content;
@@ -12,7 +12,7 @@ export const Container = styled.h2`
         width: 56px;
         height: 2px;
         border: 10px;
-        background-color: ${(props) => props.theme.dark};
+        background-color: currentColor;
         display: block;
 
         margin-top: 1rem;

@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { Features } from "./containers/Features";
 import { Hero } from "./containers/Hero";
 import { Services } from "./containers/Services";
+import { Testimonials } from "./containers/Testimonials";
 
 export const App = () => {
     return (
@@ -11,6 +12,7 @@ export const App = () => {
             <Hero />
             <Services />
             <Features />
+            <Testimonials />
         </>
     );
 };
