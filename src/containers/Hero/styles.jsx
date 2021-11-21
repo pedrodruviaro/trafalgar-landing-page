@@ -23,6 +23,9 @@ export const Container = styled(ContainerDefault)`
     @media (min-width: 900px) {
         > div:first-child {
             flex: 1;
+            p {
+                font-size: 1.125rem;
+            }
         }
     }
 

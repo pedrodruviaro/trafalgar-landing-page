@@ -16,6 +16,8 @@ export const Container = styled.header`
         display: flex;
         align-items: center;
         gap: 2rem;
+
+        z-index: 999;
     }
 
     @media screen and (max-width: 800px) {

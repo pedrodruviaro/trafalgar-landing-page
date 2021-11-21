@@ -24,7 +24,7 @@ export const Container = styled.button`
     ${(props) =>
         props.secondary &&
         css`
-            background-color: transparent;
+            background-color: ${(props) => props.theme.light};
             color: ${(props) => props.theme.blue};
             border: 1px solid ${(props) => props.theme.blue};
         `}

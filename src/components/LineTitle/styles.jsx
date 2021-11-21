@@ -5,7 +5,6 @@ export const Container = styled.h2`
     line-height: 56px;
     font-weight: 700;
 
-    border: 1px solid;
     width: fit-content;
 
     &::after {
@@ -24,7 +23,7 @@ export const Container = styled.h2`
         props.lineCenter &&
         css`
             &::after {
-                margin: 1rem auto;
+                margin: 1rem auto 0 auto;
             }
         `}
 `;
