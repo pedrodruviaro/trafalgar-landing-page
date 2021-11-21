@@ -3,6 +3,7 @@ import { Container } from "./styles.jsx";
 import { LineTitle } from "../../components/LineTitle";
 import { Button } from "../../components/Button";
 import { ServiceCard } from "../../components/ServiceCard/index.jsx";
+import { Dots } from "../../components/Dots";
 
 const cards = [
     {
@@ -59,7 +60,7 @@ export const Services = () => {
                 ))}
             </div>
 
-            <span className="dots"></span>
+            <Dots />
 
             <Button secondary>Learn more</Button>
         </Container>

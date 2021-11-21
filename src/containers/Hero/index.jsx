@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "./styles.jsx";
 import { Button } from "../../components/Button";
+import { Dots } from "../../components/Dots";
 
 export const Hero = () => {
     return (
@@ -19,7 +20,7 @@ export const Hero = () => {
             <div>
                 <img src="/assets/hero.svg" alt="hero" />
             </div>
-            <span className="dots"></span>
+            <Dots />
         </Container>
     );
 };

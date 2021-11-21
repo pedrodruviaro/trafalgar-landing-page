@@ -26,6 +26,10 @@ export const Container = styled(ContainerDefault)`
         margin-inline: auto;
     }
 
+    > button {
+        margin-inline: auto;
+    }
+
     > div {
         display: grid;
         gap: 2rem;
@@ -49,14 +53,8 @@ export const Container = styled(ContainerDefault)`
         }
     }
 
-    .dots {
-        position: absolute;
+    > span {
         width: 5rem;
-        aspect-ratio: 1;
-
-        background: url("/assets/dots.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
 
         top: 50%;
         z-index: -1;

@@ -47,15 +47,7 @@ export const Container = styled(ContainerDefault)`
         }
     }
 
-    .dots {
-        position: absolute;
-        width: 3.5rem;
-        aspect-ratio: 1;
-
-        background: url("/assets/dots.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-
+    > span {
         top: 0.5rem;
         left: 0;
 
