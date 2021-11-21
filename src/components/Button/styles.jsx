@@ -1,16 +1,16 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.button`
-    font-size: 18px;
-    line-height: 55px;
+    font-size: 1rem;
+    line-height: 1.5;
     font-weight: 700;
     border-radius: 40px;
-    min-width: 12rem;
+    min-width: 10rem;
     background-color: ${(props) => props.theme.blue};
     color: ${(props) => props.theme.light};
 
     border: none;
-    padding: 0 1rem;
+    padding: 0.75em 1em;
     cursor: pointer;
     display: inline-block;
 
