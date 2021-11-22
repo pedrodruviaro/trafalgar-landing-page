@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.h2`
-    font-size: 36px;
+    font-size: 2rem;
     line-height: 1.5;
     font-weight: 700;
 
@@ -17,6 +17,10 @@ export const Container = styled.h2`
 
         margin-top: 1rem;
         margin-right: auto;
+    }
+
+    @media (min-width: 700px) {
+        font-size: 2.5rem;
     }
 
     ${(props) =>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from "./components/Header";
+import { Articles } from "./containers/Articles";
 import { Features } from "./containers/Features";
 import { Hero } from "./containers/Hero";
 import { Services } from "./containers/Services";
@@ -13,6 +14,7 @@ export const App = () => {
             <Services />
             <Features />
             <Testimonials />
+            <Articles />
         </>
     );
 };
