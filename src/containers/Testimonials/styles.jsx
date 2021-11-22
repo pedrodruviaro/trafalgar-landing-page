@@ -18,9 +18,9 @@ export const Container = styled(ContainerDefault)`
         }
 
         > span {
-            top: -2rem;
-            right: -2.25rem;
-            width: 7rem;
+            top: 1rem;
+            right: 1rem;
+            width: 5rem;
         }
     }
 
